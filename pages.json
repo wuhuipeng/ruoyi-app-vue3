@@ -16,6 +16,11 @@
       "navigationBarTitleText": "工作台"
     }
   }, {
+    "path": "pages/policy",
+    "style": {
+      "navigationBarTitleText": "政策库"
+    }
+  }, {
     "path": "pages/mine/index",
     "style": {
       "navigationBarTitleText": "我的"
@@ -76,7 +81,15 @@
         "iconPath": "static/images/tabbar/home.png",
         "selectedIconPath": "static/images/tabbar/home_.png",
         "text": "首页"
-      }, {
+      },
+	  {
+	      "pagePath": "pages/policy",
+	      "iconPath": "static/images/tabbar/home.png",
+	      "selectedIconPath": "static/images/tabbar/home_.png",
+	      "text": "政策服务"
+	    },
+ 
+	  {
         "pagePath": "pages/work/index",
         "iconPath": "static/images/tabbar/work.png",
         "selectedIconPath": "static/images/tabbar/work_.png",
